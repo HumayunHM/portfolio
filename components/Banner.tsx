@@ -20,7 +20,7 @@ const Banner = () => {
             className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'
         >
             Humayun Maan.{" "}
-            <span className='text-textDark mt-2 lgl:mt-4'>I build things for the web.</span>
+            <span className='text-textDark mt-2 lgl:mt-4'>I build mobile and web applications</span>
         </motion.h1>
         <motion.p 
             initial={{ y: 10, opacity: 0 }}
@@ -29,7 +29,7 @@ const Banner = () => {
             className="text-base md:max-w-[650px] text-textDark font-medium"
         >
             {" "}
-            I am a <span className='text-textGreen'>Web</span> and <span className='text-textGreen'>Mobile</span> developer operating with <span className='text-textGreen'>React</span> and it's latest frameworks to create fast, satisfying and convincing <span className='text-textGreen'>Front-End</span> in order to connect a company's prospects and customers with its brand.{" "} 
+            I am a <span className='text-textGreen'>Web</span> and <span className='text-textGreen'>Mobile</span> developer operating with <span className='text-textGreen'>React</span> and it&apos;s latest frameworks to create fast, satisfying and convincing <span className='text-textGreen'>Front-End</span> in order to connect a company&apos;s prospects and customers with its brand.{" "} 
             {/*<a href="#" target='_blank'>
                 <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>
                     Learn More
