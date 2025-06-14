@@ -1,5 +1,7 @@
 import AppwriteImage from '@/public/assets/images/Appwrite.png';
+import BusinessImage from '@/public/assets/images/business.png';
 import PortfolioImage from '@/public/assets/images/portfolio.png';
+import ZabaniAppImage from '@/public/assets/images/ZbApp.png';
 import ZabaniWebsiteImage from '@/public/assets/images/ZbWeb.png';
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
@@ -18,8 +20,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={PortfolioImage}
-                alt="Portfolio"
+                src={BusinessImage}
+                alt="Business Website"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -29,10 +31,10 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Next.js Portfolio Website</h3>
+              <h3 className="text-2xl font-bold">Next.js Business Website</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              Portfolio website made using Next.js in React. Uses Framer Motion for animations and Tailwind for styling.{" "}
+              Business website made using Next.js in React. Uses Framer Motion for animations and Tailwind for styling.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Next.js</li>
@@ -44,14 +46,14 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/HumayunHM/portfolio"
+                href="https://github.com/HumayunHM/StealthCuztomzSite"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://humayunmaan.vercel.app/"
+                href="https://stealth-cuztomz-site.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -116,8 +118,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={AppwriteImage}
-                alt="Appwrite"
+                src={ZabaniAppImage}
+                alt="Zabani App"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -127,15 +129,15 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Appwrite Authentication App</h3>
+              <h3 className="text-2xl font-bold">English Learning App</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              A login and signup system for your react-native app using 
-              appwrite.{" "}
+              An English Learning app made in React-Native with Expo, reanimated.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React-Native</li>
-              <li>Appwrite</li>
+              <li>Expo</li>
+              <li>Reanimated</li>
             </ul>
           </div>
         </div>
